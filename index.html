@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Studentlist 1991</h1>
+
+    <section id="buttons">
+        <div id="sorting">
+            <button id="sort_first">Sort by first name</button>
+            <button id="sort_last">Sort by last name</button>
+        </div>
+    </section>
+
+    <table id="studentlist">
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+        </tbody>
+    </table>
+
+    <template id="student_template">
+        <tr>
+            <td data-firstname>FIRSTNAME</td>
+            <td data-lastname>LASTNAME</td>
+            <td><button>delete</button></td>
+        </tr>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
